@@ -1,0 +1,3 @@
+# All my .files
+
+There's a rake task for that...
