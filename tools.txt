@@ -1,0 +1,6 @@
+colima
+copilot
+go
+powerline
+python
+vimpilot

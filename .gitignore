@@ -1,1 +1,17 @@
 vim/bundle/
+
+# Generated dotfiles exclusions
+.DS_Store
+*.swp
+*.swo
+*~
+.zcompdump*
+*.zwc
+.zsh_history
+.viminfo
+.cache/
+cache/
+.env
+.env.*
+*.pem
+*.key
