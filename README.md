@@ -70,8 +70,10 @@ Copy uses tmux's buffer, not necessarily your laptop clipboard over SSH.
 
 ## Repository layout
 
-The new Make installer uses `home/` as its configuration source. Existing `vim/`,
-`vimrc`, `zshrc`, `oh-my-zsh/`, and other legacy paths are retained for reference.
-They are not installed by `make install`.
+`home/` contains the current configuration collected from this Mac. The collector
+omits histories, caches, Git metadata, and direct credential assignments. It adds
+portable tool paths, guards Mac-only settings, and includes the requested tmux keys.
+The top-level legacy configuration and old Vim submodules have been removed.
+`make install` uses only the paths listed in `manifest.txt` under `home/`.
 
 Clone over SSH: `git clone git@github.com:malnick/dotfiles.git`.

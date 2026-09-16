@@ -1,5 +1,3 @@
-vim/bundle/
-
 # Generated dotfiles exclusions
 .DS_Store
 *.swp
